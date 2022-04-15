@@ -1,10 +1,10 @@
 # Student-Result-Management-System
 This is a simple web-based student result management system written in PHP and Javascript.
 
-**Project Description :**
+**Description :**
 The system that is going to be developed is the Student Result Management System (SRMS). This is a database application system that is to be used by the students to show the profile, marks, grade report or admin to insert, update, delete the students info, marks, and create grade reports. This system also has the ability to authenticate the user (students) and admin. This project intends to automate the process of Inserting, updating, deleting, showing results for students and maintaining the records of stundent’s results.
 
-**Project Goals and Objectives :**
+**Goals and Objectives :**
 The goals and objectives of the Student Result Management System are as follows:
 1. Authentication for admin and students
 2. Student Account Management by Admin.
