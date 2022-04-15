@@ -1,0 +1,104 @@
+<!-- Bootstrap 4 uses HTML elements and CSS properties that require the HTML5 doctype. -->
+<!DOCTYPE html>
+<!-- Always include the HTML5 doctype at the beginning of the page, along with the lang attribute and the correct character set -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- My CSS-File Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Register</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        .form{
+            background-color: white;
+            padding: 30px;
+            border: 1px solid lightskyblue;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <form action="register.php" method="post" class="form">
+                        <div class="form-group p-2">
+                            <h3 style="color: steelblue; text-align: center">Register your account</h3>
+                        </div>
+                        <div class="form-group">
+                            Student Id:<p style="color: #ff0000; display:inline">*</p>
+                            <input class="form-control" type="text" name="studentId" placeholder="Enter Student Id" pattern="^((2015)|(2016)|(2017)|(2018)|(2019)|(2020))-[1-3]{1}-[0-9]{2}-[0-9]{3}" required>
+                        </div>
+                        <!--<div class="form-group">
+                            Full Name:<p style="color: red; display:inline">*</p>
+                            <input class="form-control" type="text" name="firstName" placeholder="Enter Full Name" pattern="(-?([A-Z].\s)?([A-Z][a-z]+)\s?)+([A-Z]'([A-Z][a-z]+))?" required>
+                        </div>-->
+                        <div class="form-group">
+                            First Name:<p style="color: #ff0000; display:inline">*</p>
+                            <input class="form-control" type="text" name="firstName" placeholder="Enter First Name" pattern="(-?([A-Z].\s)?([A-Z][a-z]+)\s?)+([A-Z]'([A-Z][a-z]+))?" required>
+                        </div>
+                        <div class="form-group">
+                            Last Name:<p style="color: red; display:inline">*</p>
+                            <input class="form-control" type="text" name="lastName" placeholder="Enter Last Name" pattern="^([A-Z][a-z]+([ ]?[a-z]?['-]?[A-Z][a-z]+)*)$" required>
+                        </div>
+                        <div class="form-group">
+                            Email:<p style="color: red; display:inline">*</p>
+                            <input class="form-control" type="text" name="email" placeholder="Enter Email Addres" pattern="\b[\w\.-]+@[\w\.-]+\.\w{2,4}\b" required>
+                        </div>
+                        <div class="form-group">
+                            Mobile Number:<p style="color: red; display:inline">*</p>
+                            <input class="form-control" type="tel" name="phone" placeholder="Enter Phone Number" pattern="^(\+88)?((011)|(015)|(016)|(017)|(018)|(019))\d{8,8}$" required>
+                        </div>
+                        <div class="form-group">
+                            Date of Birth:<p style="color: red; display:inline">*</p>
+                            <input class="form-control" type="date" name="birthdate" placeholder="Enter Birthdate" pattern="[01-12]{2}\/[01-31]{2}\/[1-2][0-9]{3}" required>
+                        </div>
+                        <div class="form-group">
+                            Gender:<p style="color: red; display:inline">*</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" value="male">Male
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gender" value="female">Female
+                            </div>
+                            <p id="message"></p>
+                        </div>
+                        <div class="form-group">
+                            Password:<p style="color: red; display:inline">*</p>
+                            <input class="form-control" type="password" name="password" placeholder="Enter Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" required>
+                        </div>
+                        <div class="form-group">
+                            Confirm Password:<p style="color: red; display:inline">*</p>
+                            <input class="form-control" type="password" name="cpassword" placeholder="Confirm Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" required>
+                        </div>
+                        <div class="form-group float-right">
+                            <button type="submit" class="btn btn-primary" onclick="mysubmit()">Register</button>
+                        </div>
+                        <div class="form-group">
+                            <p>Already have you an account? <a href="sign_in.php"> <u>Login Here</u> </a> </p>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
