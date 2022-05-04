@@ -22,3 +22,15 @@ As a whole the system is focused to work with Student Result Management System a
 
 **Database :**
 Run the ‘database.php’.file. Or ‘project480.sql’ file.
+
+# Physical diagram
+![Screenshot from 2021-10-16 21-47-01](https://user-images.githubusercontent.com/43060004/137594227-53fe1e81-0b7c-4840-8e0e-f579a1eecff6.png)
+
+# Testing
+Successfully connected with database and serve the pages.
+
+![Screenshot from 2021-10-16 21-54-16](https://user-images.githubusercontent.com/43060004/137594229-46d40c62-77c8-46e2-acb2-3b3ac6ebcf6c.png)
+
+Any devices can access the University website by entering http://www.apollointernational.edu
+
+![Screenshot from 2021-10-16 21-59-32](https://user-images.githubusercontent.com/43060004/137594230-faabf6d1-c885-43d0-89e7-90b69b5e03e8.png)
