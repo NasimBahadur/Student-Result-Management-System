@@ -24,16 +24,16 @@ As a whole the system is focused to work with Student Result Management System a
 Run the ‘database.php’.file. Or ‘project480.sql’ file.
 
 # Testing
-Successfully connected with database and serve the pages.
+Successfully connected with database and server which serves the pages.
 
-![Screenshot from 2022-05-04 18-36-08](https://user-images.githubusercontent.com/43060004/166691070-18e0ce56-a992-4bad-9e82-0cbf47d8c0d3.png)
+![Register Page Image](https://user-images.githubusercontent.com/43060004/166691070-18e0ce56-a992-4bad-9e82-0cbf47d8c0d3.png)
 
-![Screenshot from 2022-05-04 18-36-29](https://user-images.githubusercontent.com/43060004/166691186-07ed9eb9-1046-469d-9d07-c216f1f40bea.png)
+![Login Page Image](https://user-images.githubusercontent.com/43060004/166691186-07ed9eb9-1046-469d-9d07-c216f1f40bea.png)
 
-![Screenshot from 2022-05-04 18-38-09](https://user-images.githubusercontent.com/43060004/166691221-39eb5311-ea86-40dc-b61c-0fc0c35c867b.png)
+![Profile/Home Page Image](https://user-images.githubusercontent.com/43060004/166691221-39eb5311-ea86-40dc-b61c-0fc0c35c867b.png)
 
-![Screenshot from 2022-05-04 18-38-27](https://user-images.githubusercontent.com/43060004/166691250-5ea6ed1b-b1e2-4c3b-b4d9-8e01349ee595.png)
+![Mark Distribution Page Image](https://user-images.githubusercontent.com/43060004/166691250-5ea6ed1b-b1e2-4c3b-b4d9-8e01349ee595.png)
 
-![Screenshot from 2022-05-04 18-38-52](https://user-images.githubusercontent.com/43060004/166691273-23bf7647-7152-4e75-896a-a8a3ccadd0c4.png)
+![Grade Report Page Image](https://user-images.githubusercontent.com/43060004/166691273-23bf7647-7152-4e75-896a-a8a3ccadd0c4.png)
 
-![Screenshot from 2022-05-04 18-40-32](https://user-images.githubusercontent.com/43060004/166691285-1e4f3d7d-dc55-4203-be3e-9db822f0c427.png)
+![Admin Page Image](https://user-images.githubusercontent.com/43060004/166691285-1e4f3d7d-dc55-4203-be3e-9db822f0c427.png)
