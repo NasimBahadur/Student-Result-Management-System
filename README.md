@@ -36,4 +36,4 @@ Successfully connected with database and server which serves the pages.
 
 ![Grade Report Page Image](https://user-images.githubusercontent.com/43060004/166691273-23bf7647-7152-4e75-896a-a8a3ccadd0c4.png)
 
-![Admin Page Image](https://user-images.githubusercontent.com/43060004/166691285-1e4f3d7d-dc55-4203-be3e-9db822f0c427.png)
+![Admin Page Image](https://user-images.githubusercontent.com/43060004/166897189-52003672-1ecb-4c06-a582-9eae6b6672a9.png)
