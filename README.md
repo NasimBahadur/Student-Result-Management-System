@@ -17,7 +17,9 @@ The goals and objectives of the Student Result Management System are as follows:
 As a whole the system is focused to work with Student Result Management System and on additional modification it can be also used as management systems of similar organizations.
 
 **System Users :**
+
 Admin/Administrator: Has full privilege on the system's functions
+
 Student: Has privilege on the system's functions as assigned by the administrator
 
 **Database :**
