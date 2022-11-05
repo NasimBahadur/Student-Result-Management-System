@@ -18,9 +18,9 @@ As a whole the system is focused to work with Student Result Management System a
 
 **System Users :**
 
-Admin/Administrator: Has full privilege on the system's functions
+• Admin/Administrator: Has full privilege on the system's functions
 
-Student: Has privilege on the system's functions as assigned by the administrator
+• Student: Has privilege on the system's functions as assigned by the administrator
 
 **Database :**
 Run the ‘database.php’.file. Or ‘project480.sql’ file.
